@@ -1,11 +1,5 @@
 
-from flask import Flask, render_template
-
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return render_template('index.html')
+## Código Flask removido. Apenas Streamlit abaixo.
 import streamlit as st
 
 st.set_page_config(page_title="Mundo Stevia - Saúde em Foco", layout="wide")
