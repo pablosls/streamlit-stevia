@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Run Flask App",
+			"command": "/Users/pablosls/Desktop/stevia/.venv/bin/python",
+			"args": [
+				"app.py"
+			],
+			"group": "build",
+			"problemMatcher": []
+		}
+	]
+}
